@@ -1,0 +1,80 @@
+.navbar {
+  height: 4rem;
+  
+}
+
+.hero {
+  height: 600px;
+  width: auto;
+  background-image: url(src/assets/imgs/Hero\ Section.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  
+}
+
+.recipe {
+  height: 800px;
+  width: auto;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-size:auto
+}
+.text-container {
+  height: 10rem;
+}
+
+.fixed-sec-size {
+  width: 1500px;
+  height: auto;
+}
+
+.divider {
+  width: 10px;
+  background-color: #fef3c7;
+  margin: 0 10px;
+}
+
+.gradient {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    40deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(253, 237, 211, 1) 32%,
+    rgba(236, 213, 181, 0.9108018207282913) 72%
+  );
+}
+
+.btn{
+  text-transform: uppercase;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.gradient2 {
+  background: rgb(220, 219, 224);
+  background: radial-gradient(
+    circle,
+    rgba(220, 219, 224, 1) 0%,
+    rgba(184, 170, 153, 1) 45%,
+    rgba(161, 140, 119, 1) 92%
+  );
+}
+
+  .icon {
+    display: inline-block;
+    background-size: cover;
+  }
+
+  .icon-search:hover,
+  .icon-search:focus {
+    filter: invert(27%) sepia(51%) saturate(2878%) hue-rotate(346deg) brightness(104%) contrast(97%);
+  }
+
+  .icon-profile:hover,
+  .icon-profile:focus {
+    filter: invert(27%) sepia(51%) saturate(2878%) hue-rotate(346deg) brightness(104%) contrast(97%);
+  }
+  .icon-write:hover,
+  .icon-write:focus {
+    filter: invert(27%) sepia(51%) saturate(2878%) hue-rotate(346deg) brightness(104%) contrast(97%);
+  }
